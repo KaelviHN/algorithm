@@ -8,4 +8,5 @@ add_executable(algorithm
         src/hashTable/ts/TS2.cpp
         src/hashTable/rn/RN383.cpp
         src/hashTable/ts/TS3.cpp
+        src/hashTable/ts/TS4.cpp
 )
