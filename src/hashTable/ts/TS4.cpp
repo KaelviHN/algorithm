@@ -77,14 +77,3 @@ public:
 };
 
 
-int main() {
-    vector<int> sold = {2,1,0,-1};
-    Solution solution;
-     vector<vector<int>> res = solution.fourSum(sold,2);
-    for (auto re : res) {
-        for (int re1 : re) {
-            cout << re1 << "\t";
-        }
-        cout << endl;
-    }
-}

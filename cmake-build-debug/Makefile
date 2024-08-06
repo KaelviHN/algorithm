@@ -248,6 +248,54 @@ src/hashTable/ts/TS4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/hashTable/ts/TS4.cpp.s
 .PHONY : src/hashTable/ts/TS4.cpp.s
 
+src/string/reverseString/RS344.obj: src/string/reverseString/RS344.cpp.obj
+.PHONY : src/string/reverseString/RS344.obj
+
+# target to build an object file
+src/string/reverseString/RS344.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/reverseString/RS344.cpp.obj
+.PHONY : src/string/reverseString/RS344.cpp.obj
+
+src/string/reverseString/RS344.i: src/string/reverseString/RS344.cpp.i
+.PHONY : src/string/reverseString/RS344.i
+
+# target to preprocess a source file
+src/string/reverseString/RS344.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/reverseString/RS344.cpp.i
+.PHONY : src/string/reverseString/RS344.cpp.i
+
+src/string/reverseString/RS344.s: src/string/reverseString/RS344.cpp.s
+.PHONY : src/string/reverseString/RS344.s
+
+# target to generate assembly for a file
+src/string/reverseString/RS344.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/reverseString/RS344.cpp.s
+.PHONY : src/string/reverseString/RS344.cpp.s
+
+src/string/reverseString/RS541.obj: src/string/reverseString/RS541.cpp.obj
+.PHONY : src/string/reverseString/RS541.obj
+
+# target to build an object file
+src/string/reverseString/RS541.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/reverseString/RS541.cpp.obj
+.PHONY : src/string/reverseString/RS541.cpp.obj
+
+src/string/reverseString/RS541.i: src/string/reverseString/RS541.cpp.i
+.PHONY : src/string/reverseString/RS541.i
+
+# target to preprocess a source file
+src/string/reverseString/RS541.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/reverseString/RS541.cpp.i
+.PHONY : src/string/reverseString/RS541.cpp.i
+
+src/string/reverseString/RS541.s: src/string/reverseString/RS541.cpp.s
+.PHONY : src/string/reverseString/RS541.s
+
+# target to generate assembly for a file
+src/string/reverseString/RS541.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/reverseString/RS541.cpp.s
+.PHONY : src/string/reverseString/RS541.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -272,6 +320,12 @@ help:
 	@echo ... src/hashTable/ts/TS4.obj
 	@echo ... src/hashTable/ts/TS4.i
 	@echo ... src/hashTable/ts/TS4.s
+	@echo ... src/string/reverseString/RS344.obj
+	@echo ... src/string/reverseString/RS344.i
+	@echo ... src/string/reverseString/RS344.s
+	@echo ... src/string/reverseString/RS541.obj
+	@echo ... src/string/reverseString/RS541.i
+	@echo ... src/string/reverseString/RS541.s
 .PHONY : help
 
 

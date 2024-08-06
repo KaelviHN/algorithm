@@ -9,4 +9,6 @@ add_executable(algorithm
         src/hashTable/rn/RN383.cpp
         src/hashTable/ts/TS3.cpp
         src/hashTable/ts/TS4.cpp
+        src/string/reverseString/RS344.cpp
+        src/string/reverseString/RS541.cpp
 )
