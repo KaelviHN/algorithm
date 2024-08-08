@@ -248,6 +248,54 @@ src/hashTable/ts/TS4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/hashTable/ts/TS4.cpp.s
 .PHONY : src/hashTable/ts/TS4.cpp.s
 
+src/string/os/OS28.obj: src/string/os/OS28.cpp.obj
+.PHONY : src/string/os/OS28.obj
+
+# target to build an object file
+src/string/os/OS28.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.obj
+.PHONY : src/string/os/OS28.cpp.obj
+
+src/string/os/OS28.i: src/string/os/OS28.cpp.i
+.PHONY : src/string/os/OS28.i
+
+# target to preprocess a source file
+src/string/os/OS28.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.i
+.PHONY : src/string/os/OS28.cpp.i
+
+src/string/os/OS28.s: src/string/os/OS28.cpp.s
+.PHONY : src/string/os/OS28.s
+
+# target to generate assembly for a file
+src/string/os/OS28.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.s
+.PHONY : src/string/os/OS28.cpp.s
+
+src/string/reverseString/RS151.obj: src/string/reverseString/RS151.cpp.obj
+.PHONY : src/string/reverseString/RS151.obj
+
+# target to build an object file
+src/string/reverseString/RS151.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.obj
+.PHONY : src/string/reverseString/RS151.cpp.obj
+
+src/string/reverseString/RS151.i: src/string/reverseString/RS151.cpp.i
+.PHONY : src/string/reverseString/RS151.i
+
+# target to preprocess a source file
+src/string/reverseString/RS151.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.i
+.PHONY : src/string/reverseString/RS151.cpp.i
+
+src/string/reverseString/RS151.s: src/string/reverseString/RS151.cpp.s
+.PHONY : src/string/reverseString/RS151.s
+
+# target to generate assembly for a file
+src/string/reverseString/RS151.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.s
+.PHONY : src/string/reverseString/RS151.cpp.s
+
 src/string/reverseString/RS344.obj: src/string/reverseString/RS344.cpp.obj
 .PHONY : src/string/reverseString/RS344.obj
 
@@ -320,6 +368,12 @@ help:
 	@echo ... src/hashTable/ts/TS4.obj
 	@echo ... src/hashTable/ts/TS4.i
 	@echo ... src/hashTable/ts/TS4.s
+	@echo ... src/string/os/OS28.obj
+	@echo ... src/string/os/OS28.i
+	@echo ... src/string/os/OS28.s
+	@echo ... src/string/reverseString/RS151.obj
+	@echo ... src/string/reverseString/RS151.i
+	@echo ... src/string/reverseString/RS151.s
 	@echo ... src/string/reverseString/RS344.obj
 	@echo ... src/string/reverseString/RS344.i
 	@echo ... src/string/reverseString/RS344.s

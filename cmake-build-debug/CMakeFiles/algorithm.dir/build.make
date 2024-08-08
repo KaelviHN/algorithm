@@ -166,6 +166,34 @@ CMakeFiles/algorithm.dir/src/string/reverseString/RS541.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/src/string/reverseString/RS541.cpp.s"
 	D:\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anran\Desktop\algorithm\src\string\reverseString\RS541.cpp -o CMakeFiles\algorithm.dir\src\string\reverseString\RS541.cpp.s
 
+CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.obj: CMakeFiles/algorithm.dir/flags.make
+CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.obj: C:/Users/anran/Desktop/algorithm/src/string/reverseString/RS151.cpp
+CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.obj: CMakeFiles/algorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\anran\Desktop\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.obj"
+	D:\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.obj -MF CMakeFiles\algorithm.dir\src\string\reverseString\RS151.cpp.obj.d -o CMakeFiles\algorithm.dir\src\string\reverseString\RS151.cpp.obj -c C:\Users\anran\Desktop\algorithm\src\string\reverseString\RS151.cpp
+
+CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.i"
+	D:\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anran\Desktop\algorithm\src\string\reverseString\RS151.cpp > CMakeFiles\algorithm.dir\src\string\reverseString\RS151.cpp.i
+
+CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.s"
+	D:\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anran\Desktop\algorithm\src\string\reverseString\RS151.cpp -o CMakeFiles\algorithm.dir\src\string\reverseString\RS151.cpp.s
+
+CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.obj: CMakeFiles/algorithm.dir/flags.make
+CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.obj: C:/Users/anran/Desktop/algorithm/src/string/os/OS28.cpp
+CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.obj: CMakeFiles/algorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\anran\Desktop\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.obj"
+	D:\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.obj -MF CMakeFiles\algorithm.dir\src\string\os\OS28.cpp.obj.d -o CMakeFiles\algorithm.dir\src\string\os\OS28.cpp.obj -c C:\Users\anran\Desktop\algorithm\src\string\os\OS28.cpp
+
+CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.i"
+	D:\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\anran\Desktop\algorithm\src\string\os\OS28.cpp > CMakeFiles\algorithm.dir\src\string\os\OS28.cpp.i
+
+CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.s"
+	D:\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\anran\Desktop\algorithm\src\string\os\OS28.cpp -o CMakeFiles\algorithm.dir\src\string\os\OS28.cpp.s
+
 # Object files for target algorithm
 algorithm_OBJECTS = \
 "CMakeFiles/algorithm.dir/src/hashTable/ts/TS1.cpp.obj" \
@@ -174,7 +202,9 @@ algorithm_OBJECTS = \
 "CMakeFiles/algorithm.dir/src/hashTable/ts/TS3.cpp.obj" \
 "CMakeFiles/algorithm.dir/src/hashTable/ts/TS4.cpp.obj" \
 "CMakeFiles/algorithm.dir/src/string/reverseString/RS344.cpp.obj" \
-"CMakeFiles/algorithm.dir/src/string/reverseString/RS541.cpp.obj"
+"CMakeFiles/algorithm.dir/src/string/reverseString/RS541.cpp.obj" \
+"CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.obj" \
+"CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.obj"
 
 # External object files for target algorithm
 algorithm_EXTERNAL_OBJECTS =
@@ -186,11 +216,13 @@ algorithm.exe: CMakeFiles/algorithm.dir/src/hashTable/ts/TS3.cpp.obj
 algorithm.exe: CMakeFiles/algorithm.dir/src/hashTable/ts/TS4.cpp.obj
 algorithm.exe: CMakeFiles/algorithm.dir/src/string/reverseString/RS344.cpp.obj
 algorithm.exe: CMakeFiles/algorithm.dir/src/string/reverseString/RS541.cpp.obj
+algorithm.exe: CMakeFiles/algorithm.dir/src/string/reverseString/RS151.cpp.obj
+algorithm.exe: CMakeFiles/algorithm.dir/src/string/os/OS28.cpp.obj
 algorithm.exe: CMakeFiles/algorithm.dir/build.make
 algorithm.exe: CMakeFiles/algorithm.dir/linkLibs.rsp
 algorithm.exe: CMakeFiles/algorithm.dir/objects1.rsp
 algorithm.exe: CMakeFiles/algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\anran\Desktop\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable algorithm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\anran\Desktop\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable algorithm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\algorithm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

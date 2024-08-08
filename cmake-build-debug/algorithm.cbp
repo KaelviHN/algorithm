@@ -97,6 +97,12 @@
 		<Unit filename="C:/Users/anran/Desktop/algorithm/src/hashTable/ts/TS4.cpp">
 			<Option target="algorithm"/>
 		</Unit>
+		<Unit filename="C:/Users/anran/Desktop/algorithm/src/string/os/OS28.cpp">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="C:/Users/anran/Desktop/algorithm/src/string/reverseString/RS151.cpp">
+			<Option target="algorithm"/>
+		</Unit>
 		<Unit filename="C:/Users/anran/Desktop/algorithm/src/string/reverseString/RS344.cpp">
 			<Option target="algorithm"/>
 		</Unit>
